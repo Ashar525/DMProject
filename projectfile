@@ -12,7 +12,7 @@ print("selected prime Numbers:\np=" + str(p) + ", q=" + str(q) + "\n")
 n=p*q
 print("n = p * q = " + str(n) + "\n")
 phi=(p-1)*(q-1)
-print("Euler's function [phi(n)]: " + str(phi) + "\n")
+print("Euler's function [phi(n)]:" + str(phi) + "\n")
 def gcd(a, b):
     while b != 0:
         c = a % b
