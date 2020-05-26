@@ -36,7 +36,7 @@ def coprimes(a):
             l.remove(x)
     return l
 ```
-### Example 3: Modular Multiplicative Inverse###
+### Example 3: Modular Multiplicative Inverse ###
 Method of modinv. 
 ```Python
 def modinv(a, m):
@@ -45,22 +45,22 @@ def modinv(a, m):
             return x
     return None
 ```
-### Example 4: Euler's Function###
+### Example 4: Euler's Function ###
 Code of Euler's Function. 
 ```Python
 phi=(p-1)*(q-1)
 print("Euler's function [phi(n)]:" + str(phi) + "\n")
 ```
 
-## Problems Faced##
+## Problems Faced ##
 The problems we faced were that at times the code didn't print decrypted or encrypted value and second was faced at the start of project which was to return the encrypt or decrypt block as a string.
 
-### Problem 1: not printing  encrpyted and decrypted data###
+### Problem 1: not printing  encrpyted and decrypted data ###
 we resolved this issue by structuring the data in different method sice in python methods can be created in middle of code because of that at times some values of variable would change causing hindrance in either printing encrypted or decrypted data. 
 
-### Problem 2: how to return the encrypt or decrypt block as a string###
+### Problem 2: how to return the encrypt or decrypt block as a string ###
 this problem was solved as the initial code was being created by joining the blocks of encrypted and decrypted data with an empty string.  
 
-## References##
+## References ##
 - Documentation of python : https://docs.python.org/3/
 - Explanation of RSA Cryptography : https://www.youtube.com/playlist?list=PLRsutzRZu45_xPRS5ITFf_M_YpJxJRfV6
